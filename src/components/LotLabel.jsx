@@ -1,8 +1,10 @@
-import { useParams } from "react-router-dom";
+import { useSearchParams } from "react-router-dom";
 
 function LotLabel() {
-  const { lotId, sku, jobName, jobId, release, kit } = useParams();
+  let [searchParams] = useSearchParams();
+  let { lotId, sku, jobName, jobId, release, kit } = searchParams;
 
+  console.log("lotId:", lotId);
   return (
     <div className="label">
       <p>BMP SKU:</p>

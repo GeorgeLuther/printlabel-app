@@ -13,7 +13,7 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "/lot_label",
+    path: "/lotLabel",
     element: <LotLabel />,
   },
 ]);
