@@ -15,7 +15,12 @@ function LotLabel() {
       <p>BMP SKU:</p>
       <h1>{sku}</h1>
       <p>Lot ID: {lotId}</p>
-
+      <img
+        src={`https://api.qrserver.com/v1/create-qr-code/?size=300x300&ecc=H&margin=10&data=${encodeURIComponent(
+          lotId
+        )}`}
+        alt="QR Code"
+      />
       {jobId && (
         <div className="job-info">
           <p>Job Name: {jobName}</p>
