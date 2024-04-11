@@ -27,8 +27,8 @@ function LotLabel() {
           lotId
         )}`}
         alt="QR Code"
-        width="500"
-        height="500"
+        width="600"
+        height="600"
       />
       {jobId && (
         <div className="job-info">
