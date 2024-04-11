@@ -2,8 +2,8 @@
   font-family: Jost, Inter, system-ui, J, Helvetica, Arial, sans-serif;
   line-height: 1;
   font-weight: 400;
-  height: 100vw;
-  width: 100vw;
+  height: calc(1056px - 10px);
+  width: calc(816px - 10px);
 
   color-scheme: light dark;
   color: rgba(0, 0, 0, 1);
@@ -25,9 +25,9 @@ a:hover {
 }
 
 body {
+  height: 1056px;
+  width: 816px;
   align-items: center;
-  min-width: 100vw;
-  min-height: 80vh;
   text-align: center;
 }
 
@@ -37,7 +37,7 @@ h1 {
 }
 .label {
   place-items: center;
-  height: 100vh;
+
   width: calc(77vh);
 }
 .job-info {
