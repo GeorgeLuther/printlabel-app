@@ -10,9 +10,11 @@ function LotLabel() {
     allParams[key] = value;
   }
   const { lotId, sku, jobName, jobId, release, kit } = allParams;
+
   useEffect(() => {
     window.print();
   }, []);
+
   return (
     <div className="label">
       <p>BMP SKU:</p>
