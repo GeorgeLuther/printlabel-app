@@ -1,7 +1,9 @@
 :root {
   font-family: Jost, Inter, system-ui, J, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  line-height: 1;
   font-weight: 400;
+  height: 100vw;
+  width: 100vw;
 
   color-scheme: light dark;
   color: rgba(0, 0, 0, 1);
@@ -23,19 +25,20 @@ a:hover {
 }
 
 body {
-  display: flex;
-  place-items: center;
+  align-items: center;
   min-width: 100vw;
-  min-height: 100vh;
+  min-height: 80vh;
   text-align: center;
 }
 
 h1 {
   font-size: 3.6em;
-  line-height: 1.1;
+  line-height: 0.2;
 }
-div {
+.label {
   place-items: center;
+  height: 100vh;
+  width: calc(77vh);
 }
 .job-info {
   text-align: left;
