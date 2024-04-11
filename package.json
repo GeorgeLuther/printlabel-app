@@ -1,7 +1,7 @@
 {
   "name": "printrender-app",
   "private": true,
-  "homepage": "https://bullmetal.app/",
+  "homepage": "https://printlabel-app-self.vercel.app/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
